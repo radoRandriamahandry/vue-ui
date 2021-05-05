@@ -1,18 +1,17 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="mx-auto my-0 max-w-7xl">
+    <div class="grid bg-gray-400 justify-items-center">
+      <h1 class="font-semibold">Slider image Backdrop</h1>
+      <SliderImageBackdrop />
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import SliderImageBackdrop from "../components/SliderImageBackdrop"
 export default {
-  name: 'Home',
   components: {
-    HelloWorld
-  }
+    SliderImageBackdrop,
+  },
 }
 </script>
